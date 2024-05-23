@@ -6,14 +6,14 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #384737;
     color: white;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #333;
+    background-color: #272727;
 }
 
 nav ul {
@@ -52,5 +52,25 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+
 }
 
