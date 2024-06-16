@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #384737;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #272727;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+
+}
+
+#tictactoe td {
+    border: 1px solid black;
+    width:100px;
+    height:100px;
+    
+  }
+
+  #tictactoe td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tictactoe tr { 
+    width: 300px;
+    height: 100px;
+    border: 1px solid black; 
+  }
+
+#tictactoe  table{ 
+    width: 300px; 
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
